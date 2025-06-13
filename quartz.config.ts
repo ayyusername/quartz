@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "🌱 Josh's Digital Garden",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -24,32 +24,32 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Inter",
+        body: "Inter",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#FDF9F3",        // Warm cream background
+          lightgray: "#F0E6D6",    // Soft beige for borders/dividers  
+          gray: "#B5A690",         // Muted brown for subtle text
+          darkgray: "#5D5347",     // Darker brown for secondary text
+          dark: "#2A2A2A",         // Charcoal for main text
+          secondary: "#C17B3B",    // Warm orange for links
+          tertiary: "#9BB89A",     // Sage green for accents
+          highlight: "rgba(232, 184, 76, 0.15)",  // Golden yellow highlight
+          textHighlight: "#E8B84C88",             // Golden yellow text highlight
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#1C1B18",        // Deep warm brown background
+          lightgray: "#2F2D27",    // Dark warm gray
+          gray: "#6B6356",         // Medium warm brown
+          darkgray: "#B5A690",     // Light warm brown for text
+          dark: "#F0E6D6",         // Cream for main text
+          secondary: "#E8B84C",    // Golden yellow for dark mode links
+          tertiary: "#9BB89A",     // Sage green (same as light mode)
+          highlight: "rgba(193, 123, 59, 0.15)",  // Warm orange highlight
+          textHighlight: "#C17B3B88",             // Orange text highlight
         },
       },
     },
