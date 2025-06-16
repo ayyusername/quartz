@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "ayyusername.github.io/quartz",
+    baseUrl: "quartz-topaz.vercel.app",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
