@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "quartz-topaz.vercel.app",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.pdf", "**/Pasted*", "**/IMG_*", "**/Screenshot*"],
     defaultDateType: "created",
     generateSocialImages: false,
     theme: {
