@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "",
+    baseUrl: "ayyusername.github.io/quartz",
     ignorePatterns: ["private", "templates", ".obsidian", "**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.pdf", "**/Pasted*", "**/IMG_*", "**/Screenshot*"],
     defaultDateType: "created",
     generateSocialImages: false,
