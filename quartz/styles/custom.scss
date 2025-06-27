@@ -39,7 +39,8 @@ body {
   font-weight: 400 !important;
 }
 
-#quartz-body {
+/* Only style the center content area, not the whole body */
+.center {
   max-width: 720px !important;
   margin: 0 auto !important;
   padding: calc(var(--baseline) * 2) calc(var(--unit) * 6) !important;
@@ -271,7 +272,7 @@ pre::before {
   display: none !important;
 }
 
-/* Remove defaults */
-.sidebar, .popover-hint, .graph, .toc, .explorer, .search, .darkmode {
+/* Remove some defaults but keep essential navigation */
+.popover-hint {
   display: none !important;
 }
